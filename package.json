@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gtwene/360-images-AR-VR/issues"
   },
-  "homepage": "https://github.com/gtwene/360-images-AR-VR#readme"
+  "homepage": "https://github.com/gtwene/360-images-AR-VR#readme",
+  "devDependencies": {
+    "electron": "^15.1.1"
+  }
 }
