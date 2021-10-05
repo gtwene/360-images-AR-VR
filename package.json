@@ -1,0 +1,20 @@
+{
+  "name": "360-images-ar-vr",
+  "version": "1.0.0",
+  "description": "Building Virtual Tour With Electrons, Three.js and Materialisecss",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtwene/360-images-AR-VR.git"
+  },
+  "author": "Godfrey Kwame Twene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtwene/360-images-AR-VR/issues"
+  },
+  "homepage": "https://github.com/gtwene/360-images-AR-VR#readme"
+}
