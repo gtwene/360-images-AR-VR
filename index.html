@@ -37,6 +37,15 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.getElementById('webgivewer').appendChild(renderer.domElement)
 
+
+        var scene = new THREE.scene();
+
+        var camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            1,
+            100000000
+        )
     </script>
 </body>
 </html>
