@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Image Layer</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="./css/materialize.min.css">
+     <script src="./js/materialize.min.js"></script>
+     <script src="./js/three.min.js"></script>
+
+     <style>
+         body{
+             margin: 0;
+             overflow: hidden;
+         }
+         .full-screen {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: green;
+         }
+
+     </style>
+             
+</head>
+<body>
+    <div id="webgivewer" class="full-screen"></div>
+
+    <script>
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.getElementById('webgivewer').appendChild(renderer.domElement)
+
+    </script>
+</body>
+</html>
